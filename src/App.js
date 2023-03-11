@@ -1,13 +1,13 @@
 import './App.css';
+import ClassComp from "./components/ClassComp"
+import FunctionComp from "./components/FunctionComp"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>HELLO</h1>
-       <h2>heading test</h2>
-       <p>new paragraph</p>
-      </header>
+    <h1>Hi</h1>
+    <ClassComp nama="Jane Doe"/>
+    <FunctionComp nama="John Doe"/>
     </div>
   );
 }
