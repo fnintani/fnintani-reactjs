@@ -1,13 +1,14 @@
 import './App.css';
-import ClassComp from "./components/ClassComp"
-import FunctionComp from "./components/FunctionComp"
+import Navigation from './components/Navbar';
+import Hero from './components/Hero';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
-    <h1>Hi</h1>
-    <ClassComp nama="Jane Doe"/>
-    <FunctionComp nama="John Doe"/>
+    	<Navigation />
+    	<Hero />
     </div>
   );
 }

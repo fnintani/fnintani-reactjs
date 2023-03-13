@@ -5,6 +5,7 @@ class ClassComp extends React.Component {
 		super(props);
 		this.state = {nomor: 0};
 	}
+	
 	render() {
 		return (
 		<div>
